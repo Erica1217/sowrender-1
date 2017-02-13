@@ -13,9 +13,11 @@ namespace YesOrNo
         public MainPage()
         {
             InitializeComponent();
+        }
 
-
-
+        async void EntryClicked(object sender, EventArgs args)
+        {
+            await Navigation.PushModalAsync(new ResponsePage());
         }
     }
 }

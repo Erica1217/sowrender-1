@@ -5,7 +5,7 @@
              x:Class="YesOrNo.MainPage">
 
   <StackLayout VerticalOptions="Center"
-             HorizontalOptions="End"
+             HorizontalOptions="Center"
              Orientation="Vertical"
              Spacing="15">
 
@@ -18,7 +18,9 @@
     
     <Button x:Name="EntryButton" 
             Text="입장하기"
-            WidthRequest = "300"/>
+            WidthRequest = "300"
+            Clicked="EntryClicked"
+            />
 
   </StackLayout>
 

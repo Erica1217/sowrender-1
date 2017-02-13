@@ -13,7 +13,7 @@ namespace YesOrNo
         {
             InitializeComponent();
 
-            MainPage = new YesOrNo.response();
+            MainPage = new YesOrNo.MainPage();
         }
 
         protected override void OnStart()
